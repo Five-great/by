@@ -1,0 +1,1 @@
+{"Name":"教学科研","Logo":"/UploadFile/2021/7/1/f0519b73-2941-4a3d-ab93-1871f351c7c5.jpg","Aliase":null,"Url":"http://byhvatc.com/list.html?HType=2&CId=3450","Fid":0,"Describe":null,"ID":3449,"Type":0,"ShowTime":"2021-03-16T09:15:04.877","Special":false,"Introduction":null}

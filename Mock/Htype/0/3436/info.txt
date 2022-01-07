@@ -1,0 +1,1 @@
+{"Name":"学院概况","Logo":"","Aliase":null,"Url":"http://byhvatc.com/list.html?HType=1&CId=3437","Fid":0,"Describe":null,"ID":3436,"Type":0,"ShowTime":"2021-03-16T09:09:43.267","Special":false,"Introduction":null}

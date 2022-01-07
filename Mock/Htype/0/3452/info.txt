@@ -1,0 +1,1 @@
+{"Name":"师资队伍","Logo":"/UploadFile/2021/7/1/fa9c43c5-6491-405f-b6cd-0834ac958014.jpg","Aliase":null,"Url":"http://byhvatc.com/list.html?HType=1&CId=3453","Fid":0,"Describe":null,"ID":3452,"Type":0,"ShowTime":"2021-03-16T09:17:09.71","Special":false,"Introduction":null}

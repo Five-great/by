@@ -1,0 +1,119 @@
+* {
+    margin    : 0;
+    padding   : 0;
+    box-sizing: border-box;
+}
+
+.p1 {
+    text-indent   : 2em;
+    letter-spacing: 3px;
+    line-height   : 35px;
+    font-size     : 17px;
+    text-align    : justify;
+}
+
+button {
+    border : 0;
+    padding: 0;
+    cursor : pointer;
+}
+
+body {
+    max-width  : 1920px;
+    min-width  : 1200px;
+    margin     : 0 auto;
+    font-family: "微软雅黑";
+}
+
+div img {
+    /* width         : 100%; */
+    border        : 0;
+    vertical-align: middle;
+}
+
+a {
+    color          : inherit;
+    text-decoration: none;
+}
+
+input,
+button:focus {
+    outline: none;
+}
+
+li {
+    list-style: none;
+}
+
+.mg {
+    margin: 0 auto;
+}
+
+.clearfix:after,
+.clearfix:before {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+.title2 {
+    position   : relative;
+    height     : 31px;
+    line-height: 30px;
+    text-align : center;
+    font-size  : 29px;
+    font-weight: bold;
+    color      : #1877f7;
+}
+
+.title2::before {
+    content   : '';
+    display   : block;
+    position  : absolute;
+    top       : 2px;
+    left      : 0;
+    width     : 41px;
+    height    : 18px;
+    background: url(../img/3.png) center no-repeat;
+}
+
+.title2::after {
+    content   : '';
+    display   : block;
+    position  : absolute;
+    top       : 2px;
+    right     : 0;
+    width     : 41px;
+    height    : 18px;
+    background: url(../img/3.png) center no-repeat;
+    transform : rotateY(180deg);
+}
+
+/* 1.2 图片设置，因为路径那边用style接数据，这边只能分开写 */
+
+.bg_p {
+    background-repeat  : no-repeat !important;
+    background-position: center !important;
+    background-size    : cover !important;
+}
+
+.bg_p2 {
+    background-repeat  : no-repeat !important;
+    background-position: center !important;
+    background-size    : cover !important;
+}
+
+bold {
+    font-weight: bold;
+}
+
+color1 {
+    color: #ffa76c;
+}

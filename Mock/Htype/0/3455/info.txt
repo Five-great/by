@@ -1,0 +1,1 @@
+{"Name":"招生动态","Logo":"/UploadFile/2021/7/1/553bbe57-4944-49a8-9a91-5bbafac09168.jpg","Aliase":null,"Url":"http://byhvatc.com/list.html?HType=2&CId=3457","Fid":0,"Describe":null,"ID":3455,"Type":0,"ShowTime":"2021-03-16T09:18:07.19","Special":false,"Introduction":null}

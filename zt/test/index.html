@@ -1,0 +1,130 @@
+<!-- 
+    麒麟
+    2021-7-6 16:44:17
+    792034927@qq.com
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>日本介护士项目</title>
+
+    <link rel="stylesheet" href="./css/public.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/swiper-bundle.css">
+
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- 4. 报名 -->
+
+        <div class="sign_up mg">
+            <div class="swiper-slide-icon"></div>
+            <!-- 4.1 title -->
+            <div class="advantage_title in_title mg">报名方式及入口</div>
+
+            <!-- 4.2 轮播 -->
+            <div class="Carousel">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+
+                    </div>
+
+                    <!-- 如果需要分页器 -->
+                    <div class="swiper-pagination mg swiper-pagination-70"></div>
+
+                    <!-- 如果需要导航按钮 -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <script src="./js/jquery-2.1.1.min.js"></script>
+    <script src="./js/template-web.js"></script>
+    <script src="./js/swiper-bundle.min.js"></script>
+
+    <script src="./js/style.js"></script>
+
+
+    <!-- 2. 准备模板 -->
+    <!-- 2.1 介绍 -->
+    <script type="text/html" id="tpl">
+    {{each data}}
+    <p class="in_p">{{$value}}</p>
+    {{/each}}
+    </script>
+
+    <!-- 3.2 -->
+    <script type="text/html" id="tpl2">
+
+
+    {{each data}}
+    <div>
+        <div class="left">
+            <img src={{$value.img}} alt="">
+        </div>
+        <div class="rigth">
+            <div class="title">{{$value.title}}</div>
+            <div class="text">{{$value.text}}</div>
+        </div>
+    </div>
+    {{/each}}
+    </script>
+
+    <!-- 3.3 工资 -->
+    <script type="text/html" id="tpl3">
+    {{each data}}
+    <li>
+        <ul class="wa_ul3">
+            <li>{{@$value.text}}</li>
+            <li>{{@$value.text1}}</li>
+            <li>{{@$value.text2}}</li>
+            <li>{{@$value.text3}}</li>
+        </ul>
+    </li>
+    {{/each}}
+    </script>
+
+    <!-- 4. 轮播 -->
+
+    <script type="text/html" id="tpl4">
+    {{each data}}
+    <div class="swiper-slide">
+        <div class="img mg bg_p" style="background-image: url({{$value.img}});"></div>
+        <div class="text">{{$value.title}}<br />
+            {{$value.text}}
+        </div>
+    </div>
+    {{/each}}
+    </script>
+
+    <script src="./js/template.js"></script>
+    <script src="./js/swiper-init.js"></script>
+
+
+
+
+
+
+
+</body>
+
+</html>
+
+<!-- 
+    麒麟
+    2021-7-6 16:44:17
+    792034927@qq.com
+ -->
